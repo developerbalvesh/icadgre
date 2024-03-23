@@ -1,0 +1,191 @@
+.contact{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-position: inherit; */
+    /* background-attachment: scroll; */
+    /* background-color: #002347; */
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    /* border: 1px solid grey; */
+    box-shadow: 4px 0 8px 0 grey;
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(1, 0, 78);
+}
+.contact h1{
+    display: inline;
+    background: rgb(0, 11, 75,0.7);
+}
+.contact h1{
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    box-shadow: 4px 0 10px 0 white;
+    animation: infinite 1s cont;
+}
+@keyframes cont{
+    0%{box-shadow: 4px 0 10px 0 white;}
+    50%{box-shadow: 4px 1px 50px 1px white;}
+    100%{box-shadow: 4px 0 10px 0 white;}
+}
+.mapss{
+    width: 92%;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 4px 0 10px 0 grey;
+}
+.address{
+    /* border: 1px solid grey; */
+    padding: 30px 100px 0 100px;
+    height: auto;
+    width: 83%;
+    /* background-color: rgb(228, 228, 228); */
+    background-color: #FFFFFF;
+    border-top: 1px solid grey;
+}
+.address h4{
+    font-size: 14;
+    font-weight: bold;
+}
+.address p{
+    font-size: 14;
+}
+.address td{
+    padding: 15px;
+}
+.address .left{
+    float: left;
+    width: 45%;
+    /* border: 1px solid greenyellow; */
+}
+.cont{
+    text-align: center;
+    float: right;
+    /* border: 1px solid greenyellow; */
+    width: 53%;
+}
+.cont input[type=text]{
+    width: 100%;
+    padding: 1%;
+    margin: 1% 0 1% 0;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.cont textarea{
+    padding: 1%;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 12%;
+}
+.cont input[type=submit]{
+    font-size: 16px;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 2%;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s;
+    background-color: #002347;
+}
+.cont input[type=submit]:hover{
+    color: #002347;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #002347;
+}
+
+
+@media screen and (max-width:800px) {
+    .contact{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        padding: 10% 0 10% 0;
+    }
+    .contact h1{
+        /* padding: 0; */
+        margin: 0;
+        width: 100%;
+        font-size: 20;
+    }
+    .contact p{
+        /* margin: 0; */
+        padding: 0;
+    }
+    .mapss{
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        height: 60%;
+        margin: 5% 5% 0 5%;
+    }
+    .white-space{
+        display: none;
+    }
+    .address{
+        height: auto;
+        /* border: 1px solid green; */
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        padding: 0 5% 0 5%;
+    }
+    .address .left{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        /* border: 1px solid green; */
+    }
+    .address .left table{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .address .cont{
+        /* border: 1px solid green; */
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10%;
+
+    }
+    .address .cont input[type=text]{
+        /* border: 1px solid green; */
+        height: auto;
+        width: 100%;
+        margin: 1% 0 1% 0;
+        border: 1px solid grey;
+        border-radius: 10px;
+        /* border: none; */
+        /* padding: 0; */
+        
+    }
+    .address .cont input[type=text]:focus{
+        border: 1px solid yellow;
+    }
+    .address .cont input[type=submit]{
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .address .cont .left,.address .cont .right{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+    .address .cont .right textarea{
+        border: 1px solid rgb(161, 161, 161);
+    }
+    
+}

@@ -1,0 +1,224 @@
+.gre-head{
+    background-color: #002347;
+    color: #002347;
+    height: 50%;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 150px;
+}
+.gre-head a{
+    background-color: #002347;
+    text-decoration: none;
+    color: white;
+}
+.gre-head p{
+    color: white;
+}
+.gre-head h1{
+    text-align: center;
+    box-shadow: 4px 0px 20px 0px white;
+    margin-left: 25%;
+    padding: 10px 5px 10px 5px;
+    background-color: white;
+    width: 50%;
+    animation: gre infinite 5s;
+}
+@keyframes gre{
+    0%{border-radius: 50% 1% 1% 1%;}
+    25%{border-radius: 1% 50% 1% 1%;}
+    50%{border-radius: 1% 1% 50% 1%;}
+    75%{border-radius: 1% 1% 1% 50%;}
+    100%{border-radius: 50% 1% 1% 1%;}
+}
+.main-gre-left{
+    float: left;
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 65%;
+    overflow: auto;
+    scroll-snap-type: proximity;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.main-gre-left h2{
+    border-radius: 10px;
+    color: #002347;
+    margin-left: 35%;
+    border-bottom: 2px solid #A30000;
+    /* border-top: 2px solid #A30000; */
+    width: 30%;
+}
+.main-gre-left h4{
+    border-radius: 10px;
+    color: #002347;
+    margin-left: 30%;
+    border-bottom: 2px solid #A30000;
+    /* border-top: 2px solid #A30000; */
+    width: 40%;
+}
+.main-gre-left img{
+    border-radius: 2%;
+    box-shadow: 4px 0px 8px 0px grey;
+}
+.main-gre-left p{
+    padding: 10px 20px 20px 20px;
+    text-align: justify;
+    margin: 0px 20px 0px 20px;
+    color: rgb(101, 109, 117);
+    border-radius: 10px;
+    border-bottom: 5px solid #002347;
+}
+.main-gre-right{
+    float: right;
+    /* border: 1px solid black; */
+    height: auto;
+    width: 34%;
+}
+.record h3{
+    text-align: center;
+    width: 100%;
+    color: #002347;
+}
+.record table{
+    width: 100%;
+    padding: 20px;
+}
+.record table th{
+    color: #002347;
+    border-bottom: #A30000 1px solid;
+    border-radius: 10px;
+}
+.record table th,td{
+    padding: 20px;
+}
+.record table td{
+    border-bottom: 1px solid #002347;
+    border-radius: 10px;
+}
+.trainer table{
+    color: #002347;
+    margin-top: 50px;
+    padding: 20px;
+    /* border: 1px solid green; */
+    width: 100%;
+}
+.trainer table tr{
+    /* border: 1px solid green; */
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    border-radius: 100px;
+}
+.trainer button{
+    width: 100%;
+    padding: 10px;
+    font-size: 16;
+    background-color: #002347;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 0 10px 0 grey;
+    font-weight: bold;
+    transition: 0.5s;
+    border: 0;
+}
+.trainer button:hover{
+    background-color: #860000;
+    box-shadow: 4px 0 10px 0 #860000;
+    cursor: pointer;
+}
+@media screen and (max-width:800px) {
+    .white-space{
+        display: none;
+    }
+    .gre-head{
+        margin: 0;
+        text-align: center;
+        padding: 10% 0 10% 0;
+        width: 100%;
+        height: auto;
+    }
+    .gre-head h1{
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+    .main-gre{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main-gre .main-gre-left{
+        width: 100%;
+        margin: 0;
+        height: auto;
+        padding: 0;
+        overflow: unset;
+    }
+    .main-gre .main-gre-left img{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+    .main-gre .main-gre-left h2{
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        margin: 5% 10% 0 10%;
+    }
+    .main-gre .main-gre-left .record{
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        /* padding: 0 5% 0 5%; */
+        /* border: 1px solid greenyellow; */
+    }
+    .main-gre .main-gre-left .record table{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main-gre .main-gre-left .record table tr{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main-gre .main-gre-left .record table tr td{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 50px;
+    }
+    .main-gre .main-gre-left .record table tr th{
+        padding: 0;
+        margin: 0;
+        height: 50px;
+        /* text-align: left; */
+        /* width: 100%; */
+    }
+    .main-gre .main-gre-left .record table tr td h3{
+        width: 90%;
+        padding: 0;
+        padding: 0 5% 0 5%;
+        margin: 0;
+    }
+    .main-gre .main-gre-left .record table tr th{
+        width: 40%;
+        padding: 0;
+        margin: 0;
+    }
+    .main-gre-right{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .main-gre-right .trainer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
+}

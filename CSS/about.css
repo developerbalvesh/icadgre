@@ -1,0 +1,295 @@
+.about-us{
+    height: 150px;
+    padding: 50px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 0px 0px 100px 100px;
+    background-image: url(../images/about2.jpg);
+    background-color: #002347;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: inherit;
+    background-position: top;
+    /* background-image: linear-gradient(to right, #002347, #C03430); */
+    box-shadow: 1px 0 10px 0 rgb(0, 29, 107);
+    animation: infinite 10s aboutus;
+    transition: 0.3s;
+}
+.about-us a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+.we-are{
+    margin: 100px 50px 100px 50px;
+    color: #002347;
+}
+.we-are .left{
+    float: left;
+    width: 45%;
+}
+.we-are .left img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.we-are .right{
+    float: right;
+    width: 50%;
+    text-align: justify;
+}
+.director{  
+    clear: both;
+    text-align: center;
+    padding: 30px;
+}
+
+.icadians{
+    clear: both;
+    text-align: center;
+    padding: 100px 0 100px 0;
+    height: 800px;
+    background-color: #e9e9e9;
+    /* border: 1px solid black; */
+}
+.icadians .par{
+    padding: 100px 0 100px 0;
+    clear: both;
+    color: rgb(6, 0, 85);
+}
+.icadians .hed{
+    color: rgb(0, 12, 119);
+    padding-bottom: 100px;
+}
+.icadians .div1{
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 0 10px 0 grey;
+    display: flex;
+    align-items: flex-end;
+}
+.icadians .content{
+    text-align: center;
+    background: rgb(255, 255, 255,0.7);
+    /* background-color: white; */
+    width: 50%;
+    height: 35%;
+    padding: 10px;
+    border-radius: 0 130px 0 0;
+    transition: 0.5s;
+    /* opacity: 0.5; */
+    /* height: 100px; */
+}
+.par{
+    font-size: 15;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+}
+.icadians .content p{
+    font-size: 15;
+    font-weight: bold;
+}
+.icadians .content:hover{
+    /* text-align: center; */
+    background: rgba(0, 2, 134, 0.548);
+    border-radius: 0 100px 0 0;
+    font-weight: bold;
+    color: yellow;
+    /* width: 100%; */
+    /* opacity: 0.5; */
+    /* height: 100px; */
+}
+.icadians .div2{
+    height: 500px;
+    width: 400px;
+    background-position: initial;
+    /* background-position: initial; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-right: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 0 20px 0 grey;
+    display: flex;
+    align-items: flex-end;
+}
+.glance{
+    background-color: #002347;
+    padding: 100px 200px 100px 200px;
+    text-align: justify;
+    height: 800px;
+}
+.glance h1{
+    color: white;
+}
+.glance p{
+    color: rgb(184, 184, 184);
+}
+.glance .left{
+    background-color: #F9F9FF;
+    padding: 30px;
+    float: left;
+    width: 42%;
+    height: 500px;
+    border-radius: 10px 100px 10px 100px;
+    animation: 2s infinite glance1;
+}
+.glance .left li{
+    color: rgb(82, 82, 82);
+    text-align: left;
+}
+.glance .left p, .glance .right p{
+    color: rgb(102, 102, 102);
+}
+@keyframes glance1{
+    0%{box-shadow: 4px 0 30px 0 white;}
+    50%{box-shadow: 4px 0 30px 0 #002347;}
+    100%{box-shadow: 4px 0 10px 0 white;}
+}
+.glance .right{
+    background-color: #F9F9FF;
+    padding: 30px;
+    float: right;
+    height: 500px;
+    width: 42%;
+    border-radius: 100px 10px 100px 10px;
+    animation: 2s infinite glance2;
+}
+@keyframes glance2{
+    0%{box-shadow: 4px 0 30px 0 white;}
+    50%{box-shadow: 4px 0 10px 0 #002347;}
+    100%{box-shadow: 4px 0 10px 0 white;}
+}
+.glance img{
+    border-radius: 50%;
+}
+
+@media screen and (max-width:800px) {
+    .contact{
+        padding: 0;
+        margin: 0;
+    }
+    .white-space{
+        display: none;
+    }
+    .we-are{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        /* border: 1px solid yellowgreen; */
+
+    }
+    .we-are .left{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        padding: 2% 0 1% 0;
+        /* border: 1px solid yellowgreen; */
+    }
+    .we-are .left img{
+        width: 50%;
+    }
+    .we-are .right{
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        padding: 0 10% 0 10%;
+    }
+    .we-are .right h2{
+        text-align: center;
+    }
+    body .icadians{
+        /* padding: 0; */
+        margin: 0;
+        padding: 5% 0 5% 0;
+        width: 100%;
+        height: auto;
+        /* border: 1px solid yellowgreen; */
+    }
+    .icadians .div1{
+        /* border: 1px solid yellowgreen; */
+    }
+    .icadians .div1,.icadians .div2{
+        padding: 0;
+        /* margin: 0; */
+        width: 80%;
+        height: 70%;
+        margin: 5% 10%  5% 10% ;
+    }
+    .icadians .content{
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        padding: 0 5% 0 5%;
+        /* border: 1px solid yellowgreen; */
+        height: auto;
+    }
+    .icadians .content h3{
+        font-size: 15px;
+    }
+    .icadians .content p{
+        font-size: 12px;
+    }
+    .icadians p{
+        width: 100%;
+    }
+    .glance{
+        clear: both;
+        padding: 0;
+        margin: 0;
+        width: 96%;
+        /* border: 1px solid yellowgreen; */
+        height: auto;
+        padding: 10% 2% 10% 2%;
+    }
+    .glance .left, .glance .right{
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        /* margin: 2% 0 2% 0; */
+        padding: 0 5% 0 5%;
+        height: auto;
+        margin-top: 5%;
+        border-radius: 10px 50px 10px 50px;
+    }
+    .glance h1{
+        text-align: center;
+    }
+    .testimonial{
+        clear: both;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        border: 1px solid white;
+    }
+    .testimonial .box{
+        margin: 0;
+        text-align: center;
+        margin-top: 10%;
+        padding: 10%;
+        width: 80%;
+        height: auto;
+    }
+    .testimonial .box img{
+        float: none;
+        width: 50%;
+    }
+    .testimonial .box .left{
+
+        text-align: center;
+        width: 100%;
+
+    }
+    .testimonial .box .right{
+        width: 100%;
+    }
+}
